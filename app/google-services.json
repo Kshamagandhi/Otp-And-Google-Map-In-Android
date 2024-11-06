@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "305046119983",
+    "project_id": "resoluteai-4a5fc",
+    "storage_bucket": "resoluteai-4a5fc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305046119983:android:6d68f927dd6ab324a8c8da",
+        "android_client_info": {
+          "package_name": "com.example.resolute_ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMG9R0FApzHUddMTJCpIIo4zYOT2g1lYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
