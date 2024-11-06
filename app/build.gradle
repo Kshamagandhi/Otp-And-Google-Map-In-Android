@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services' // Google Services plugin
+
+android {
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.resolute_ai"
+        minSdk 23
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.google.firebase:firebase-firestore:25.1.1'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'org.webrtc:google-webrtc:1.0.30039@aar'
+    implementation 'com.google.firebase:firebase-core:19.0.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
+    implementation 'com.google.android.material:material:1.4.0'
+}
